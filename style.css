@@ -1,5 +1,6 @@
 body{
     font-family: 'Sora', sans-serif;
+    margin: auto;
 }
 h1{
     font-size: 55px;
@@ -31,13 +32,17 @@ p{
     margin: 0;
     padding-left: 15px;
 }
-.explore-btn{
+.explore-btn, .documentation-btn{
     text-decoration: none;
     padding: 15px 30px;
     border-radius: 5px;
     font-weight: 700;
     background-color: salmon;
     color: snow;
+}
+#my-mission{
+    margin-left: 27%;
+    margin-bottom: -10%;
 }
 .my-mission-item{
     margin-right: 5%;
@@ -57,4 +62,58 @@ p{
 }
 .my-mission-item img{
     width: 50%;
+}
+.develope-container{
+    display: flex;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-top: 100px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 250px;
+    
+}
+#develope-description{
+    margin-left: -30%;
+    padding-right: 10%;
+}
+.coder img{
+    width: 45%;
+}
+#document-btn{
+    margin-top: 50px;
+}
+.community-container{
+    display: flex;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 250px;
+    background-position-x: 1100px;
+}
+.project img{
+    width: 40%;
+}
+#community-description{
+    padding-right: 50px;
+    width: 90%;
+}
+.project{
+    margin-right: -30%;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 150px;
+}
+#footer-text{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
 }
