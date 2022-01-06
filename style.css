@@ -1,12 +1,13 @@
 body{
     font-family: 'Sora', sans-serif;
-    margin: auto;
+    margin: 0;
 }
 h1{
     font-size: 55px;
 }
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 .orange-part{
     color: orange;
@@ -68,6 +69,7 @@ p{
     padding-left: 5%;
     margin-left: 5%;
     margin-top: 100px;
+    margin-bottom: 100px;
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -75,11 +77,11 @@ p{
     
 }
 #develope-description{
-    margin-left: -30%;
+    margin-left: -10%;
     padding-right: 10%;
 }
-.coder img{
-    width: 45%;
+.coder img, .project img{
+    width: 70%;
 }
 #document-btn{
     margin-top: 50px;
@@ -88,23 +90,57 @@ p{
     display: flex;
     padding-left: 5%;
     margin-left: 5%;
-    margin-top: 100px;
     margin-bottom: 100px;
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 250px;
-    background-position-x: 1100px;
-}
-.project img{
-    width: 40%;
+    background-position-x: 1120px;
+
 }
 #community-description{
-    padding-right: 50px;
-    width: 90%;
+    padding-right: 90px;
 }
 .project{
-    margin-right: -30%;
+   margin-right: 0;
+}
+#recent-products{
+    width: 100%;
+}
+.product-container{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 250px;
+    background-position-y: 20px;
+}
+#product-1{
+    margin-bottom: 50px;
+    text-align: justify;
+    border-left: salmon 5px solid;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px rgb(185, 184, 184);
+    width: 90%;
+    padding: 25px;
+}
+#product-2{
+    margin-bottom: 50px;
+    text-align: justify;
+    border-right: salmon 5px solid;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px rgb(185, 184, 184);
+    width: 90%;
+    padding: 25px;
+}
+.recent-product-list img{
+    width: 150px;
+}
+.see-more-btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: salmon;
+    color: snow;
 }
 footer{
     background-color: black;
